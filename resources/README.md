@@ -1,9 +1,11 @@
 # Resources
 
-This pipeline requires several reference files (appropriate patient BAM files) to run, and target BED files during CNV analysis.
+The original pipeline used reference resources available within the institutional analysis environment, including target BED files and previously processed sequencing datasets that were used for reference sample selection.
 
-During development, these resources were accessed from the institutional analysis server and are therefore **not included** in this repository.
+These files are not distributed with this repository because they contain institutional resources and/or data derived from clinical sequencing projects.
 
-Users should provide their own reference files that are appropriate for their sequencing panel and analysis workflow.
+Users should provide:
 
-This repository contains only the computational pipeline and does not distribute institutional or proprietary reference datasets.
+- Target BED file corresponding to their sequencing panel
+- Reference samples appropriate for their study
+- CNV annotation resources compatible with their workflow
