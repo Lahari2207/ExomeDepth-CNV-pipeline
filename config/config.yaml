@@ -1,0 +1,13 @@
+input:
+  bam_directory: example/
+
+output:
+  output_directory: results/
+
+reference:
+  bed_file: resources/targets.bed
+  dgv_file: resources/DGV_CNV_MOD.bed
+
+parameters:
+  min_correlation: 0.97
+  reference_samples: 10
