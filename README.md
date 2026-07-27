@@ -3,9 +3,32 @@ Automated CNV detection pipeline for whole exome sequencing data using ExomeDept
 
 ## Overview
 
-This repository contains an automated bioinformatics pipeline developed for copy number variation (CNV) detection from whole exome sequencing (WES) data using the ExomeDepth R package.
+Copy number variants (CNVs) are an important class of genomic variation associated with numerous inherited disorders and cancers. Detecting CNVs from targeted next-generation sequencing (NGS) data is challenging because read-depth based approaches require carefully selected reference samples and extensive manual processing.
 
-The pipeline automates reference sample selection, performs sex-aware reference matching, detects CNVs, annotates identified variants, and generates analysis-ready output files.
+This repository presents an automated analysis pipeline developed during my Master's research to streamline CNV detection using the ExomeDepth R package. The workflow automates reference sample selection, performs sex-aware reference matching, executes CNV calling, annotates detected variants, and generates analysis-ready reports while reducing manual intervention.
+
+---
+## Pipeline Overview
+
+Targeted sequencing BAM files
+            │
+            ▼
+Coverage extraction
+            │
+            ▼
+Reference sample selection
+            │
+            ▼
+Sex-aware matching
+            │
+            ▼
+ExomeDepth CNV detection
+            │
+            ▼
+CNV annotation
+            │
+            ▼
+Analysis-ready reports
 
 ---
 
