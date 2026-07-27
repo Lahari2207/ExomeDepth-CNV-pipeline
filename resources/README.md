@@ -1,11 +1,11 @@
 # Resources
 
-The original pipeline used reference resources available within the institutional analysis environment, including target BED files and previously processed sequencing datasets that were used for reference sample selection.
+This pipeline relies on several reference resources that are not included in this repository 
 
-These files are not distributed with this repository because they contain institutional resources and/or data derived from clinical sequencing projects.
+During development, these files were accessed from the institutional bioinformatics analysis environment and included annotation files and reference datasets required for ExomeDepth-based CNV analysis.
 
-Users should provide:
+The pipeline expects the following resources to be available:
 
-- Target BED file corresponding to their sequencing panel
-- Reference samples appropriate for their study
-- CNV annotation resources compatible with their workflow
+-> Exon annotation BED files for chromosome X and autosomes.
+-> Database of Genomic Variants (DGV) common CNV annotation file.
+-> A collection of previously processed reference BAM files for reference sample selection.
