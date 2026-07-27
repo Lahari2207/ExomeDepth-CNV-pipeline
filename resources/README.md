@@ -6,6 +6,6 @@ During development, these files were accessed from the institutional bioinformat
 
 The pipeline expects the following resources to be available:
 
-Exon annotation BED files for chromosome X and autosomes.
+Exon annotation BED files for chromosome X and autosomes. /n
 Database of Genomic Variants (DGV) common CNV annotation file.
 A collection of previously processed reference BAM files for reference sample selection.
